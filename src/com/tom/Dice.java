@@ -7,12 +7,17 @@ public class Dice {
 		int n2;
 		int n3;
 		
-		int n[] = new int[3];
-		n[0] = 4;
-		n[1] = 5;
-		n[2] = 6;
-		for (int i=0; i<3; i++){
-			System.out.println(n[i]);
+		int n[] = {4, 5, 6, 3, 2, 1};
+		for (int i : n ){
+			System.out.println(i);
 		}
+		
+		
+//		n[0] = 4;
+//		n[1] = 5;
+//		n[2] = 6;
+//		for (int i=0; i<n.length; i++){
+//			System.out.println(n[i]);
+//		}
 	}
 }
