@@ -11,7 +11,6 @@ public class VendingMachine {
 		drinks[0] = new Drink("a", 15);
 		drinks[1] = new Drink("b", 20);
 		drinks[2] = new Drink("c", 30);
-		Hahaha haha = new Hahaha();
 		
 	}
 }
