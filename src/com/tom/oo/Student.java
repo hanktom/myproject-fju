@@ -1,7 +1,7 @@
 package com.tom.oo;
 
 public class Student {
-	private int english;
+	int english;
 	protected int math;
 	int chinese;
 	String name;
@@ -25,7 +25,7 @@ public class Student {
 		System.out.println("hello");
 	}
 	
-	protected void print(){
+	public void print(){
 		System.out.println(pass);
 		System.out.println(english+"\t"+ 
 				math+"\t"+chinese);
