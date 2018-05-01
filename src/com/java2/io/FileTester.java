@@ -7,6 +7,12 @@ import java.io.IOException;
 public class FileTester {
 
 	public static void main(String[] args) {
+			
+			writeTest();
+		
+	}
+	
+	public static void writeTest() {
 		try {
 			FileOutputStream out = new FileOutputStream("data.txt");
 			out.write(65);
@@ -19,7 +25,6 @@ public class FileTester {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
 
 }
