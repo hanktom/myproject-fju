@@ -1,0 +1,4 @@
+C001,Java,2,13,3
+C002,Database,4,10,2
+C003,Physical,1,8,2
+C004,English,4,14,2
